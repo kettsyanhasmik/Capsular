@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Capsular</string>
+    <string name="date_default">Date</string>
+    <string name="create_capsule">Create</string>
+</resources>

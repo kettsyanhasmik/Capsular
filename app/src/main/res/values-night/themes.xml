@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.Capsular" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/maincolor</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSurface">#121212</item>
+        <item name="colorOnSurface">#FFFFFF</item>
+        <item name="android:background">#121212</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="Theme.Capsular" parent="Base.Theme.Capsular" />
+
+    <style name="LightButtonStyle" parent="Widget.Material3.Button">
+        <item name="backgroundTint">#1F1F1F</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="cornerRadius">20dp</item>
+        <item name="elevation">4dp</item>
+    </style>
+
+    <style name="TealDatePickerDialog" parent="Theme.Material3.DayNight.Dialog">
+        <item name="colorPrimary">@color/maincolor</item>
+        <item name="colorOnPrimary">#121212</item>
+        <item name="colorSecondary">@color/maincolor</item>
+        <item name="colorOnSecondary">#121212</item>
+        <item name="android:colorAccent">@color/maincolor</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColorSecondary">@color/maincolor</item>
+        <item name="buttonBarPositiveButtonStyle">@style/TealButton</item>
+        <item name="buttonBarNegativeButtonStyle">@style/TealButton</item>
+    </style>
+
+    <style name="TealButton" parent="Widget.Material3.Button.TextButton">
+        <item name="android:textColor">@color/maincolor</item>
+    </style>
+
+</resources>

@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="180dp"
+    android:background="@drawable/rounded_background"
+    android:layout_margin="10dp"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/imageIdea"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="top|center_horizontal"
+        android:scaleType="centerInside"
+        android:src="@drawable/image_idea_placeholder"/>
+
+    <TextView
+        android:id="@+id/textIdeaTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="Capsule Idea"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"/>
+</FrameLayout>
